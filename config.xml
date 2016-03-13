@@ -1,0 +1,30 @@
+ <?xml version="1.0" encoding="UTF-8" ?> 
+- <widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="com.bsdmasterindex.show-hide-iframe" version="1.0.0" versionCode="100">
+- <!--  versionCode is optional and Android only 
+  --> 
+- <!--  Tool Set Version 
+  --> 
+  <preference name="phonegap-version" value="cli-5.2.0" /> 
+  <name>BitBox</name> 
+  <description>A useful application for Bitcoin Faucets visitors.</description> 
+  <author href="http://www.bitbox.comxa.com" email="bitboxfaucet@gmail.com">BitBox Team</author> 
+- <!--  App requested permission 
+  --> 
+  <preference name="permissions" value="none" /> 
+  <preference name="orientation" value="portrait" /> 
+- <!--  ANDROID * ANDROID * ANDROID 
+  --> 
+  <platform name="android" /> 
+- <!--  PLUGINS * PLUGINS * PLUGINS 
+  --> 
+  <plugin name="cordova-plugin-device" source="npm" spec="1.0.1" /> 
+  <plugin name="cordova-plugin-whitelist" source="npm" spec="1.0.0" /> 
+- <!--  WHITELIST * WHITELIST * WHITELIST 
+  --> 
+  <allow-navigation href="http://www.bitbox.comxa.com/" /> 
+- <!--  <allow-intent href="*" /> 
+  --> 
+  <access origin="*" /> 
+- <!--  Required for iOS9 
+  --> 
+  </widget>
