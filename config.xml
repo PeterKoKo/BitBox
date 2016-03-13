@@ -11,8 +11,7 @@
 - <!--  App requested permission 
   --> 
   <preference name="permissions" value="none" /> 
-  <preference name="orientation" value="portrait" /> 
-- <!--  ANDROID * ANDROID * ANDROID 
+ - <!--  ANDROID * ANDROID * ANDROID 
   --> 
   <platform name="android" /> 
 - <!--  PLUGINS * PLUGINS * PLUGINS 
